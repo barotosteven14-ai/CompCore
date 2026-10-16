@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CompCore</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">
+            CompCore
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="Pc Parts.html">PC Parts</a>
+            <a href="Build Guide.html">Build Guide</a>
+            <a href="Bottleneck.html">Bottleneck</a>
+            <a href="Compatibility.html">Compatibility</a>
+            <a href="Recommended Builds.html">Recommended Builds</a>
+            <a href="Tips.html">Tips</a>
+        </div>
+    </nav>
+
+
+    <header class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">COMPUTER BUILD GUIDE</p>
+
+            <h1>Build a Better PC</h1>
+
+            <p>
+                Learn how computer components work, choose compatible
+                parts, and create a balanced PC for gaming, school,
+                work, editing, and other tasks.
+            </p>
+
+            <a href="Pc Parts.html" class="button">
+                Start Building
+            </a>
+
+        </div>
+
+    </header>
+    
+<section class="suggestion-section" id="suggestions">
+    <div class="suggestion-container">
+
+        <div class="suggestion-info">
+            <p class="suggestion-label">WE VALUE YOUR IDEAS</p>
+            <h2>Help Us Improve CompCore</h2>
+            <p>
+                Have an idea to make our website better?
+                Share your suggestions, feedback, or features
+                you'd like us to add. Your ideas matter!
+            </p>
+
+            <div class="suggestion-benefit">
+                <span>💡</span>
+                <p>Share new ideas</p>
+            </div>
+
+            <div class="suggestion-benefit">
+                <span>💻</span>
+                <p>Suggest useful PC guides</p>
+            </div>
+
+            <div class="suggestion-benefit">
+                <span>✨</span>
+                <p>Help improve the user experience</p>
+            </div>
+        </div>
+
+        <div class="suggestion-form">
+            <h3>Send a Suggestion</h3>
+            <p class="form-description">
+                Tell us what you think about CompCore.
+            </p>
+
+            <form id="suggestionForm">
+                <label for="suggestion-name">Your Name</label>
+                <input
+                    type="text"
+                    id="suggestion-name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="suggestion-category">Suggestion Category</label>
+                <select
+                    id="suggestion-category"
+                    name="category"
+                    required
+                >
+                    <option value="">Choose a category</option>
+                    <option value="Website Design">Website Design</option>
+                    <option value="PC Parts">PC Parts</option>
+                    <option value="Build Guide">Build Guide</option>
+                    <option value="New Features">New Features</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="suggestion-message">Your Suggestion</label>
+                <textarea
+                    id="suggestion-message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your suggestion here..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="suggestion-button">
+                    Send Suggestion →
+                </button>
+
+                <p id="suggestion-response" class="suggestion-response"
+                   role="status" aria-live="polite"></p>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+    <footer>
+
+        <h2>CompCore</h2>
+
+        <p>
+            Learn • Choose • Check • Build
+        </p>
+
+        <p class="copyright">
+            © 2026 CompCore
+        </p>
+
+    </footer>
+
+</body>
+</html>
